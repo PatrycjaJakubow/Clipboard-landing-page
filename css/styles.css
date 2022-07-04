@@ -1,0 +1,320 @@
+#header {
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  text-align: center;
+}
+
+body {
+  font-family: "Bai Jamjuree";
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  color: #535455;
+  margin-bottom: 1%;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* SECTION HEADER */
+.logo {
+  padding: 4%;
+}
+
+.undertitle {
+  color: #9FABB2;
+  padding: 1%;
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  margin: 2% 0.5% 7% 0.5%;
+}
+
+.btn-ios {
+  background-color: #26BAA4;
+  border-color: #26BAA4;
+}
+
+.btn-ios:hover {
+  background-color: #7FC8A9;
+  border-color: #7FC8A9;
+  color: white;
+}
+
+.btn-mac {
+  background-color: #6173FF;
+}
+
+.btn-mac:hover {
+  background-color: #9BA3EB;
+  border-color: #9BA3EB;
+  color: white;
+}
+
+/* SECTION CONTENT2 */
+.content2 {
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.computer {
+
+  position: relative;
+  margin-left: -8%;
+}
+
+.laptop {
+  padding: 5%;
+  width: 93%;
+}
+
+.options {
+  max-width: 30%;
+  margin-top: 10%;
+}
+
+.left-options {
+  text-align: left;
+  padding-bottom: 3%;
+}
+
+.p-options {
+  color: #9FABB2;
+  text-align: left;
+  padding-bottom: 8%;
+}
+
+/* SECTION CONTENT 3 */
+.content3 {
+  margin-bottom: 2%;
+}
+
+.devices {
+  margin-top: 4%;
+}
+
+.display {
+  display: inline-block;
+  max-width: 30%;
+}
+
+.img {
+  display: inline-block;
+  padding-bottom: 9%;
+}
+
+.img-blist {
+  padding-bottom: 7%;
+}
+
+/* SECTION columns */
+.columns {
+  padding-top: 3%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 8%;
+}
+
+.last-title {
+  padding-bottom: 5%;
+}
+
+.c-options {
+  color: #9FABB2;
+  padding: 2%;
+  margin: auto;
+  text-align: center;
+}
+
+/* SECTION COMPANIES */
+.companies {
+  margin-bottom: 8%;
+}
+
+.firms {
+  max-height: 50%;
+}
+
+.clipboard {
+  text-align: center;
+}
+
+/* SECTION FOOTER */
+.footer {
+  background-color: #F6F6F6;
+  color: #535455;
+  height: auto;
+  padding: 4%;
+  padding: 2% 12%;
+}
+
+.thumb-content {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.sm-logo {
+  max-width: 20%;
+  height: auto;
+}
+
+.brk {
+  padding: 0 1%;
+}
+
+.image:hover {
+  filter: invert(54%) sepia(79%) saturate(397%) hue-rotate(122deg) brightness(97%) contrast(90%);
+}
+
+@media (max-width: 375px) {
+  h2 {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+
+
+  .logo {
+    margin: 20%;
+  }
+
+  .undertitle {
+    max-width: 80%;
+    padding-top: 3%;
+    padding-bottom: 9%;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 84%;
+    font-size: 15px;
+    padding: 3%;
+  }
+
+  .content1 {
+    margin-top: 30%;
+    text-align: center;
+  }
+
+
+
+/* CONTENTS 2 */
+  .content2 {
+    text-align: center;
+  }
+
+  .laptop {
+    padding-bottom: 12%;
+  }
+
+  .computer {
+    padding-left: 3%;
+
+    display: contents;
+  }
+
+  .p-options {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 15px;
+
+  }
+
+
+  .left-options {
+    text-align: center;
+  }
+
+  .l-o {
+    margin-bottom: 20%;
+  }
+
+  .options {
+    max-width: inherit;}
+
+/* CONTENT 3 */
+
+.devices {
+  padding-bottom: 20%;
+}
+    /* COLUMNS */
+
+.last-p {
+  padding-bottom: 18%;
+}
+
+.c-options {
+  font-size: 15px;
+}
+.display{
+  max-width: 90%;
+  padding-bottom: 16%;
+}
+
+/* COMPANIES */
+
+.companies {
+  padding: 9%;
+  text-align: center;
+}
+
+.firms {
+  max-height: 90%;
+  padding-bottom: 16%;
+}
+
+/* CLIPBOARD */
+
+.clipboard {
+  max-width: 100%;
+padding-bottom: 16%;
+text-align: center;
+padding-left: 3%;
+padding-right: 3%;
+
+}
+
+/* FOOTER */
+
+.footer {
+  max-height:inherit;
+
+}
+
+.small-logo {
+  text-align: center;
+  padding: 15%;
+}
+
+
+.sm-logo {
+  max-width: 35%;
+}
+.thumb-content {
+  padding-bottom: 10%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.brk {
+  padding-left: 10%;
+padding-bottom: 15%;
+}
+
+.social-media {
+  padding-top: 15%;
+}
+
+}
