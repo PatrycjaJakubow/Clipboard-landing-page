@@ -176,7 +176,7 @@ h1, h2, h3 {
   filter: invert(54%) sepia(79%) saturate(397%) hue-rotate(122deg) brightness(97%) contrast(90%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   h2 {
     text-align: center;
     padding-left: 6%;
